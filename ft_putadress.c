@@ -12,7 +12,7 @@ int ft_putadress(void *p)
     int chars;
 
     if (!p)
-        return (ft_putstr("0x0"));
+        return (ft_putstr("(nil)"));
     chars = 0;
     chars += ft_putstr("0x");
     ft_puthex_ptr((unsigned long long)p, &chars);
