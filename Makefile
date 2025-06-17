@@ -3,9 +3,6 @@ NAME	=	libftprintf.a
 CC		=	cc
 CFLAGS	=	-Wall -Wextra -Werror
 
-GREEN   = \033[0;32m
-RESET	= \033[0m
-
 SRCS	= 	ft_printf.c \
 			ft_putchar.c \
 			ft_putstr.c \
