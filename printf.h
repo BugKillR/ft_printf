@@ -14,7 +14,6 @@
 # define PRINTF_H
 
 # include <stdarg.h>
-# include <unistd.h>
 
 # define INT_MIN (-214748364 - 1)
 # define HEXA_UPPER "0123456789ABCDEF"
