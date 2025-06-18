@@ -1,3 +1,15 @@
+/* ************************************************************************** */
+/*                                                                            */
+/*                                                        :::      ::::::::   */
+/*   ft_putnbr.c                                        :+:      :+:    :+:   */
+/*                                                    +:+ +:+         +:+     */
+/*   By: kkeskin <kkeskin@student.42istanbul.com.t  +#+  +:+       +#+        */
+/*                                                +#+#+#+#+#+   +#+           */
+/*   Created: 2025/06/18 13:00:19 by kkeskin           #+#    #+#             */
+/*   Updated: 2025/06/18 13:00:19 by kkeskin          ###   ########.fr       */
+/*                                                                            */
+/* ************************************************************************** */
+
 #include "ft_printf.h"
 
 static void	ft_putnbr_r(int n, int *chars)
@@ -16,7 +28,7 @@ static void	ft_putnbr_r(int n, int *chars)
 
 int	ft_putnbr(int n)
 {
-	int chars;
+	int	chars;
 
 	chars = 0;
 	if (n == INT_MIN)
